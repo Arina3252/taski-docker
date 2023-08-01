@@ -45,7 +45,7 @@ services:
     # Сбилдить и запустить образ, 
     # описанный в Dockerfile в папке gateway
 #    build: ./gateway/
-    build: ./nginx/
+    build: ./gateway/
     volumes:
       - static:/staticfiles/
     # Ключ ports устанавливает
